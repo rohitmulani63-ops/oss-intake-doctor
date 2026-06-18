@@ -91,10 +91,17 @@ export type IssueTemplateAuditFinding = {
   suggestion?: string;
 };
 
+export type IssueTemplateAuditCategoryScores = {
+  bugReport: number;
+  privacy: number;
+  routing: number;
+  syntax: number;
+};
+
 export type IssueTemplateAuditResult = {
   filesAudited: number;
   score: number;
-  categoryScores: Record<IssueTemplateAuditCategory, number>;
+  categoryScores: IssueTemplateAuditCategoryScores;
   findings: IssueTemplateAuditFinding[];
 };
 
@@ -125,6 +132,13 @@ const BUG_REQUIRED_FIELDS: MissingField[] = [
   "actual_behavior",
   "logs_or_error",
 ];
+
+const ISSUE_TEMPLATE_AUDIT_CATEGORY_ROWS = [
+  { label: "bug-report", key: "bugReport" },
+  { label: "privacy", key: "privacy" },
+  { label: "routing", key: "routing" },
+  { label: "syntax", key: "syntax" },
+] as const;
 
 const DEFAULT_LABELS: Required<IntakeLabels> = {
   bug: "bug",
@@ -411,6 +425,60 @@ export function formatIssueTemplateAudit(result: IssueTemplateAuditResult): stri
       }
     }
   }
+
+  return lines.join("\n");
+}
+
+export function formatIssueTemplateAuditMarkdown(result: IssueTemplateAuditResult): string {
+  const lines = [
+    "# OSS Intake Doctor Issue-Template Audit",
+    "",
+    "## Summary",
+    "",
+    "| Metric | Value |",
+    "|---|---:|",
+    `| Files audited | ${result.filesAudited} |`,
+    `| Overall score | ${result.score}/100 |`,
+    "",
+    "## Category Scores",
+    "",
+    "| Category | Score |",
+    "|---|---:|",
+    ...ISSUE_TEMPLATE_AUDIT_CATEGORY_ROWS.map(
+      (category) => `| ${category.label} | ${result.categoryScores[category.key]}/100 |`
+    ),
+    "",
+    "## Findings",
+    "",
+  ];
+
+  if (result.findings.length === 0) {
+    lines.push("No findings. Keep this report as a clean baseline before changing issue forms.");
+  } else {
+    lines.push("| Severity | Category | Path | Finding | Suggested fix |");
+    lines.push("|---|---|---|---|---|");
+
+    for (const finding of result.findings) {
+      lines.push([
+        "",
+        markdownTableCell(finding.severity),
+        markdownTableCell(finding.category ?? "general"),
+        markdownTableCell(`\`${finding.path}\``),
+        markdownTableCell(finding.message),
+        markdownTableCell(finding.suggestion ?? "Review manually."),
+        "",
+      ].join(" | "));
+    }
+  }
+
+  lines.push(
+    "",
+    "## Next Maintainer Step",
+    "",
+    result.findings.length === 0
+      ? "Run the demo and sample report next to review issue-analysis summaries before enabling any workflow."
+      : "Fix errors first, then warnings. Re-run the audit after each template change."
+  );
 
   return lines.join("\n");
 }
@@ -709,7 +777,7 @@ function scoreTemplateAudit(findings: IssueTemplateAuditFinding[]): number {
 
 function scoreTemplateAuditCategories(
   findings: IssueTemplateAuditFinding[]
-): Record<IssueTemplateAuditCategory, number> {
+): IssueTemplateAuditCategoryScores {
   return {
     bugReport: scoreTemplateAuditCategory(findings, "bug-report"),
     privacy: scoreTemplateAuditCategory(findings, "privacy"),
@@ -741,14 +809,15 @@ function scoreTemplateAuditCategory(
 }
 
 function formatCategoryScores(
-  scores: Record<IssueTemplateAuditCategory, number>
+  scores: IssueTemplateAuditCategoryScores
 ): string[] {
-  return [
-    `- bug-report: ${scores.bugReport}/100`,
-    `- privacy: ${scores.privacy}/100`,
-    `- routing: ${scores.routing}/100`,
-    `- syntax: ${scores.syntax}/100`,
-  ];
+  return ISSUE_TEMPLATE_AUDIT_CATEGORY_ROWS.map(
+    (category) => `- ${category.label}: ${scores[category.key]}/100`
+  );
+}
+
+function markdownTableCell(value: string): string {
+  return value.replaceAll("|", "\\|").replaceAll("\n", " ");
 }
 
 function makeFinding(finding: IssueTemplateAuditFinding): IssueTemplateAuditFinding {

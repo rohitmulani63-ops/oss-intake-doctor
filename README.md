@@ -25,6 +25,8 @@ Audit `.github/ISSUE_TEMPLATE` locally:
 
 ```text
 npm run audit:templates
+npm run audit:templates:markdown
+npm run audit:templates:json
 ```
 
 Current audit categories:
@@ -135,9 +137,9 @@ Public MVP, ready for maintainer pilots.
 
 Current proof:
 
-- 34 local tests.
+- 36 local tests.
 - 30-item sample issue bank.
-- Issue-template audit with category scores.
+- Issue-template audit with text, Markdown, and JSON reports.
 - Dry-run GitHub Action wrapper.
 - Public benchmark across 20 repositories.
 - Launch verification log.
@@ -158,9 +160,8 @@ Useful links:
 Near-term:
 
 - Release `v0.1.0`.
-- Add a markdown audit report command.
-- Add JSON output for CI and maintainers.
 - Build a gallery of weak issue forms and improved issue forms.
+- Add `good first issue` tasks for docs, fixtures, and examples.
 - Collect maintainer feedback from small pilot repositories.
 
 Later:

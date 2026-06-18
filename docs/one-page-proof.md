@@ -10,7 +10,7 @@ Every unclear issue creates human follow-up work.
 
 AI-powered issue triage already exists, including GitHub's own AI issue intake workflow and many Marketplace actions.
 
-OSS Intake Doctor does not compete as another AI bot.
+OSS Intake Doctor focuses on the safer local workflow around issue quality.
 
 It focuses on the safer gap:
 
@@ -41,10 +41,10 @@ No-cost intake quality before maintainers trust automation.
 
 ## Current Evidence
 
-- 34 local tests.
+- 36 local tests.
 - 30 sample issues.
 - 20 public repositories benchmarked.
-- Local issue-template audit command with suggested fixes.
+- Local issue-template audit command with text, Markdown, and JSON reports.
 - GitHub research refresh on issue-form validators, parsers, and AI issue intake.
 - Dry-run GitHub Action wrapper.
 - Trust and safety docs.
@@ -61,4 +61,4 @@ It protects maintainers from premature automation while still moving toward bett
 
 ## Current Ask
 
-Publish the repo, release v0.1.0, and apply to OpenAI Codex for OSS with proof that the project supports maintainer triage, review, and workflow quality.
+Release v0.1.0, collect maintainer pilot evidence, and apply to OpenAI Codex for OSS with proof that the project supports maintainer triage, review, and workflow quality.

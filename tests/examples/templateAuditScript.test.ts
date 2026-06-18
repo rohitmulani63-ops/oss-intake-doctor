@@ -4,7 +4,11 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { describe, it } from "node:test";
 
-import { buildIssueTemplateAuditReport } from "../../scripts/template-audit.ts";
+import {
+  buildIssueTemplateAuditJsonReport,
+  buildIssueTemplateAuditMarkdownReport,
+  buildIssueTemplateAuditReport,
+} from "../../scripts/template-audit.ts";
 
 describe("template audit script", () => {
   it("builds a report from local issue-template files", async () => {
@@ -76,6 +80,53 @@ describe("template audit script", () => {
       assert.match(report, /Files audited: 2/);
       assert.match(report, /Score: 100\/100/);
       assert.match(report, /- none/);
+    } finally {
+      await rm(root, { recursive: true, force: true });
+    }
+  });
+
+  it("builds a markdown report for maintainer review", async () => {
+    const root = await mkdtemp(join(tmpdir(), "oss-intake-template-audit-"));
+    const templateDir = join(root, ".github", "ISSUE_TEMPLATE");
+
+    await mkdir(templateDir, { recursive: true });
+    await writeFile(join(templateDir, "config.yml"), "blank_issues_enabled: true");
+
+    try {
+      const report = buildIssueTemplateAuditMarkdownReport(root);
+
+      assert.match(report, /^# OSS Intake Doctor Issue-Template Audit/);
+      assert.match(report, /\| Overall score \| 60\/100 \|/);
+      assert.match(report, /\| routing \| 70\/100 \|/);
+      assert.match(report, /\| warning \| routing \| `.github\/ISSUE_TEMPLATE\/config.yml` \| set blank_issues_enabled: false to reduce low-quality blank issues \| Add `blank_issues_enabled: false` to route contributors into structured choices\. \|/);
+      assert.match(report, /## Next Maintainer Step/);
+    } finally {
+      await rm(root, { recursive: true, force: true });
+    }
+  });
+
+  it("builds a stable JSON report for local automation", async () => {
+    const root = await mkdtemp(join(tmpdir(), "oss-intake-template-audit-"));
+    const templateDir = join(root, ".github", "ISSUE_TEMPLATE");
+
+    await mkdir(templateDir, { recursive: true });
+    await writeFile(join(templateDir, "config.yml"), "blank_issues_enabled: true");
+
+    try {
+      const report = JSON.parse(buildIssueTemplateAuditJsonReport(root));
+
+      assert.equal(report.tool, "oss-intake-doctor");
+      assert.equal(report.reportType, "issue-template-audit");
+      assert.equal(report.filesAudited, 1);
+      assert.equal(report.score, 60);
+      assert.deepEqual(report.categoryScores, {
+        "bug-report": 100,
+        privacy: 100,
+        routing: 70,
+        syntax: 90,
+      });
+      assert.equal(report.findings[0].path, ".github/ISSUE_TEMPLATE/config.yml");
+      assert.equal(report.findings[0].severity, "warning");
     } finally {
       await rm(root, { recursive: true, force: true });
     }

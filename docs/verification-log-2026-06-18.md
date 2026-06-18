@@ -13,7 +13,10 @@ npm.cmd test
 npm.cmd run demo
 npm.cmd run report
 npm.cmd run audit:templates
+npm.cmd run audit:templates:markdown
+npm.cmd run audit:templates:json
 node packages/action/src/index.ts examples/events/issue-opened.json examples/issues/existing-issues.json examples/config/oss-intake.config.json
+npm.cmd ls --depth=0
 ```
 
 ## Results
@@ -21,9 +24,9 @@ node packages/action/src/index.ts examples/events/issue-opened.json examples/iss
 ### Tests
 
 ```text
-tests 34
+tests 36
 suites 12
-pass 34
+pass 36
 fail 0
 ```
 
@@ -74,6 +77,49 @@ Category scores:
 Findings: none
 ```
 
+### Markdown Issue-Template Audit
+
+Passed.
+
+The Markdown report includes:
+
+- Summary table.
+- Category score table.
+- Findings section.
+- Next maintainer step.
+
+Current score:
+
+```text
+Overall score: 100/100
+Findings: none
+```
+
+### JSON Issue-Template Audit
+
+Passed.
+
+The JSON report includes:
+
+- `tool`
+- `reportType`
+- `filesAudited`
+- `score`
+- `categoryScores`
+- `findings`
+
+Current result:
+
+```json
+{
+  "tool": "oss-intake-doctor",
+  "reportType": "issue-template-audit",
+  "filesAudited": 4,
+  "score": 100,
+  "findings": []
+}
+```
+
 ### Dry-Run Action
 
 Passed.
@@ -91,7 +137,7 @@ The dry-run Action produced a maintainer summary for the sample issue, including
 
 ### Dependency Check
 
-No `node_modules` directory found.
+`npm.cmd ls --depth=0` passed and showed no installed package dependencies.
 
 ### API/Cost Scan
 

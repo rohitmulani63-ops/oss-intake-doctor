@@ -32,20 +32,22 @@ Use this checklist before publishing the repository.
 - [ ] No dependencies are added accidentally.
 - [ ] No API or network client code exists.
 
-## Before Public Launch
+## Current Public Follow-Ups
 
-- [ ] Replace placeholder issue-template links in `.github/ISSUE_TEMPLATE/config.yml`.
-- [ ] Decide final repo owner/name.
-- [ ] Decide whether MIT license is final.
-- [ ] Add maintainer contact in `SECURITY.md`.
-- [ ] Add real screenshots or workflow-log snippets after first public test.
+- [x] Public repository exists.
+- [x] Repo owner/name selected.
+- [x] MIT license selected.
+- [x] Placeholder issue-template links replaced.
+- [x] Security policy published.
+- [ ] Publish `v0.1.0`.
+- [ ] Add GitHub topics.
+- [ ] Add real screenshots or workflow-log snippets after first public pilot.
 - [ ] Confirm no private files are included.
 - [ ] Confirm docs say dry-run first, comment-only later.
 - [ ] Confirm OpenAI OSS readiness is framed as a later evidence-backed step.
 
 ## Do Not Do Without Explicit Approval
 
-- [ ] Publish the repository.
 - [ ] Contact maintainers.
 - [ ] Apply to programs.
 - [ ] Add paid APIs.

@@ -82,8 +82,8 @@ Success signal:
 
 ### Week 2 - Add Proof People Can See
 
-- Add markdown output for the issue-template audit.
-- Add JSON output for CI and future dashboards.
+- Markdown output for the issue-template audit. Completed locally.
+- JSON output for CI and future dashboards. Completed locally.
 - Add a small gallery of weak issue forms and improved issue forms.
 - Turn the current before/after demo into a screenshot-friendly doc.
 - Create two or three `good first issue` tasks for docs, examples, and fixtures.

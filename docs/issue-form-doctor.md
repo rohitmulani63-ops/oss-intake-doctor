@@ -25,6 +25,13 @@ It reports one overall score plus category scores for:
 npm run audit:templates
 ```
 
+Markdown and JSON outputs are available for review notes and local automation:
+
+```text
+npm run audit:templates:markdown
+npm run audit:templates:json
+```
+
 The command reads local files only:
 
 ```text
@@ -83,6 +90,30 @@ Category scores:
 
 Findings:
 - none
+```
+
+Markdown output starts with a maintainer-friendly summary:
+
+```text
+# OSS Intake Doctor Issue-Template Audit
+
+## Summary
+
+| Metric | Value |
+|---|---:|
+| Files audited | 4 |
+| Overall score | 100/100 |
+```
+
+JSON output is stable enough for local scripts and CI review:
+
+```json
+{
+  "tool": "oss-intake-doctor",
+  "reportType": "issue-template-audit",
+  "filesAudited": 4,
+  "score": 100
+}
 ```
 
 When a finding exists, the report includes the category and a concrete suggestion:
