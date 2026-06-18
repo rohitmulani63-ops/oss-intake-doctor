@@ -78,10 +78,10 @@ Use this framing:
 We are building OSS Intake Doctor because open-source maintainers need safer, no-cost intake quality tools. Codex support helps us execute faster while keeping the tool free for the community.
 ```
 
-Avoid this framing:
+Less useful framing:
 
 ```text
-This is mainly about private benefit.
+This is mainly a private productivity project.
 ```
 
 ## Remaining Approval-Gated Work

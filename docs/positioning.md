@@ -15,26 +15,21 @@ It audits issue forms before submission, then checks whether a new issue has eno
 - A safer step before teams adopt AI-heavy automation.
 - A future home for contributor-reviewed Repro Packs.
 
-## What It Is Not
+## Project Boundaries
 
-- Not an AI issue triage bot.
-- Not a paid API wrapper.
-- Not a hosted SaaS product.
-- Not an auto-close bot.
-- Not an AI-authorship detector.
-- Not a replacement for maintainers.
+- Local rules first.
+- Free core workflow.
+- Dry-run before public comments or labels.
+- Maintainer control over issue actions.
+- No hosted service required.
+- No paid API required.
+- Maintainers remain the final reviewers.
 
 ## Competitive Truth
 
 The GitHub issue triage category already exists.
 
 GitHub documents AI-powered issue intake, and there are Marketplace tools that classify issues, detect duplicates, post comments, and apply labels with LLM APIs.
-
-OSS Intake Doctor should not claim:
-
-```text
-No one else does GitHub issue triage.
-```
 
 OSS Intake Doctor can credibly claim:
 
@@ -82,12 +77,12 @@ Use:
 - "Conservative duplicate hints."
 - "Contributor-guided Repro Packs."
 
-Avoid:
+Retire from public copy:
 
 - "The first."
 - "The only."
 - "Fully automated."
-- "AI triage bot."
+- "Generic AI triage."
 - "Auto-close duplicates."
 - "Detects AI slop."
 - "Guaranteed duplicate detection."

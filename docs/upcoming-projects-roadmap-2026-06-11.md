@@ -26,7 +26,7 @@ Checked:
 
 ## Strongest Verdict
 
-Do not build another AI issue triage bot.
+Build something more specific than broad AI issue triage.
 
 That lane is already crowded, and GitHub itself is actively moving there.
 
@@ -385,13 +385,13 @@ Decision point:
 
 - If benchmark evidence is strong, prepare public launch.
 - If a friendly maintainer is available, ask approval before outreach.
-- Do not apply to OpenAI OSS until there is public adoption or pilot evidence.
+- Apply to OpenAI OSS when there is public adoption or pilot evidence.
 
-## What Not To Build Yet
+## Keep For Later, With Evidence
 
 - Hosted SaaS dashboard.
 - Paid API integration.
-- AI issue triage bot.
+- Generic AI triage positioning.
 - Auto-close duplicates.
 - Auto-post public comments by default.
 - GitHub App requiring broad permissions.
@@ -415,4 +415,3 @@ Public Repo Template Benchmark Pack
 That gives us evidence, product direction, and credibility without spending money or contacting anyone.
 
 After that, improve Issue Form Doctor based on the benchmark, then move to Repro Pack.
-

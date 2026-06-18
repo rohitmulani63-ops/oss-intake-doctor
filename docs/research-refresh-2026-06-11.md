@@ -8,7 +8,7 @@ How can OSS Intake Doctor become stronger after another current-market research 
 
 The best upgrade is to move earlier in the intake flow.
 
-Generic AI issue triage is crowded. GitHub itself documents an AI-powered issue intake tool, and the Marketplace has many issue triage actions.
+The broad AI triage lane is crowded. GitHub itself documents an AI-powered issue intake tool, and the Marketplace has many issue triage actions.
 
 The better path is:
 
@@ -65,7 +65,7 @@ Source:
 
 Implication:
 
-Do not compete as a generic AI issue triage bot. GitHub is already there.
+This points OSS Intake Doctor toward local, reviewable intake quality rather than broad triage automation.
 
 ### The AI Marketplace Is Crowded
 
@@ -144,10 +144,10 @@ Best positioning now:
 OSS Intake Doctor is a no-cost maintainer intake quality toolkit: it audits GitHub issue forms before submission, dry-run analyzes issues after submission, and will later help contributors create safe Repro Packs.
 ```
 
-Avoid:
+Preferred public framing:
 
 ```text
-OSS Intake Doctor is an AI issue triage bot.
+OSS Intake Doctor is a no-cost maintainer intake quality toolkit for cleaner GitHub issues.
 ```
 
 ## Next Best Feature
@@ -159,4 +159,3 @@ Add an example `docs/issue-form-doctor.md` workflow that shows maintainers how t
 3. Re-run the audit.
 4. Run the issue-bank report.
 5. Start a dry-run pilot.
-

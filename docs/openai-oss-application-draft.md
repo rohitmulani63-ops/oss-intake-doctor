@@ -95,15 +95,15 @@ Support would help us:
 - Keep the core tool free and no-cost for maintainers.
 - Avoid rushing into paid APIs or hosted infrastructure.
 
-## What We Will Not Do Without Maintainer Trust
+## Operating Principles
 
-- No paid API requirement.
-- No hosted SaaS dashboard.
-- No auto-closing issues.
-- No public bot comments by default.
-- No broad GitHub permissions.
-- No contributor code execution.
-- No external upload of issue content.
+- Free core workflow for maintainers.
+- Local-first analysis.
+- Dry-run review before write automation.
+- Maintainer-readable summaries.
+- Minimal GitHub permissions.
+- Clear support and security routing.
+- Explicit maintainer control over any public comments, labels, or closing behavior.
 
 ## Roadmap
 
@@ -112,7 +112,7 @@ Phase 1:
 - Publish public repo.
 - Release v0.1.0.
 - Publish benchmark report.
-- Submit OSS application.
+- Prepare the OSS application with public proof.
 
 Phase 2:
 
@@ -129,6 +129,11 @@ Phase 3:
 Phase 4:
 
 - Consider optional AI bridge only if the no-cost core has traction.
+
+Application timing:
+
+- Apply after the public repo, release, verification logs, and pilot evidence are ready.
+- If pilot evidence is not available yet, apply with the strongest available public proof and explain the community role clearly.
 
 ## Application Answer Draft
 

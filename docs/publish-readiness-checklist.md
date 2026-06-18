@@ -6,7 +6,7 @@ Use this checklist before publishing the repository.
 
 - [ ] README explains the problem and product clearly.
 - [ ] README includes no-cost, no-external-API positioning.
-- [ ] README does not claim this is the only GitHub issue triage tool.
+- [ ] README avoids uniqueness claims and keeps the positioning precise.
 - [ ] `LICENSE` exists.
 - [ ] `CONTRIBUTING.md` exists.
 - [ ] `SECURITY.md` exists.

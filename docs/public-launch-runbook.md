@@ -2,7 +2,7 @@
 
 This runbook is for the sit-together publishing session.
 
-Do not perform these steps without explicit approval from Rohit.
+Use these steps when Rohit is present and has approved the public action.
 
 ## Before Publishing
 
@@ -77,12 +77,11 @@ Public
 9. Create release `v0.1.0` using [release-v0.1.0-draft.md](release-v0.1.0-draft.md).
 10. Submit OpenAI OSS application using [openai-oss-application-draft.md](openai-oss-application-draft.md).
 
-## Do Not Do In The Publishing Session
+## Approval Boundaries In The Publishing Session
 
-- Do not add paid APIs.
-- Do not deploy hosting.
-- Do not contact maintainers yet.
-- Do not enable public bot comments by default.
-- Do not apply to unrelated programs.
-- Do not add broad GitHub permissions.
-
+- Paid APIs stay out of scope.
+- Hosting stays out of scope.
+- Maintainer outreach happens in a separate session.
+- Public bot comments stay opt-in.
+- Program applications stay focused on relevant OSS support.
+- GitHub permissions stay minimal.

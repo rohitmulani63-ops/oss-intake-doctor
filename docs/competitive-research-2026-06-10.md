@@ -10,15 +10,7 @@ The space is not empty.
 
 There are already issue triage, duplicate detection, and AI assessment tools on GitHub. The clearest discovery is that GitHub itself now documents an AI-powered issue intake workflow built around the `AI assessment comment labeler` action.
 
-So OSS Intake Doctor should not be positioned as:
-
-```text
-The only GitHub issue triage tool.
-```
-
-That would be false.
-
-The stronger position is:
+The strongest public position is:
 
 ```text
 The zero-cost, no-external-API, transparent maintainer intake layer for OSS projects that want safer issue quality checks before adopting AI-heavy automation.
@@ -179,15 +171,7 @@ But exact-name uniqueness is not enough. The broader category is already active.
 
 ## Updated Verdict
 
-This is not the best path if we try to compete as:
-
-```text
-AI issue triage bot.
-```
-
-That lane is crowded and GitHub itself is already in it.
-
-This can still be a strong path if we sharpen it into:
+The strongest path is sharper than broad AI triage:
 
 ```text
 No-cost, no-external-API, transparent maintainer intake quality checks for OSS projects, with future Repro Pack support.
@@ -201,10 +185,10 @@ Use this:
 OSS Intake Doctor is a zero-cost, no-external-API maintainer intake layer that checks issue quality, missing information, support/security routing, and duplicate risk before maintainers waste time.
 ```
 
-Avoid this:
+Retire this phrasing from public copy:
 
 ```text
-OSS Intake Doctor is an AI issue triage bot.
+OSS Intake Doctor is a generic AI triage tool.
 ```
 
 ## Strategic Wedge
@@ -274,4 +258,3 @@ The opportunity is:
 ```text
 Most tools are AI/API/action-after-submission. OSS Intake Doctor can be the no-cost, privacy-first, explainable intake quality layer that maintainers can trust before they let bots write to their repos.
 ```
-

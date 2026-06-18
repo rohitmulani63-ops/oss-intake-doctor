@@ -103,6 +103,16 @@ npm run report
 
 The current MVP uses built-in Node.js features only.
 
+## First Maintainer Check
+
+For a first pass on an existing repository, start with the issue-template audit:
+
+```text
+npm run audit:templates
+```
+
+Then run the demo and sample report to see how the maintainer summaries read before using the workflow in another project.
+
 ## GitHub Action
 
 The repository includes a dry-run GitHub Action example:
@@ -121,7 +131,7 @@ See [docs/configuration.md](docs/configuration.md).
 
 ## Project Status
 
-Public MVP.
+Public MVP, ready for maintainer pilots.
 
 Current proof:
 
@@ -137,6 +147,7 @@ Useful links:
 
 - [Launch verification](docs/verification-log-2026-06-18.md)
 - [Public repo benchmark](docs/public-repo-template-benchmark-2026-06-17.md)
+- [Community growth and OpenAI OSS plan](docs/community-growth-and-openai-oss-plan-2026-06-18.md)
 - [Issue Form Doctor](docs/issue-form-doctor.md)
 - [Before/after demo](docs/before-after-demo.md)
 - [Pilot guide](docs/pilot-guide.md)

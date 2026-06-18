@@ -2,7 +2,7 @@
 
 OSS Intake Doctor should help the open-source community first.
 
-OpenAI OSS program readiness is a later outcome, not the first reason to build.
+OpenAI OSS program readiness is a later outcome. The first reason to build is community usefulness.
 
 The project should apply only after it has public proof. A new local repo with no maintainer usage is not strong enough yet.
 
@@ -20,11 +20,9 @@ It helps with:
 - Security-sensitive report routing.
 - Maintainer workflow quality.
 
-The fit is strongest when framed as a trust-first maintainer workflow tool, not as another AI issue triage bot.
+The fit is strongest when framed as a trust-first maintainer workflow tool for cleaner issue intake.
 
 ## Competitive-Aware Framing
-
-Do not claim that no one else has issue triage.
 
 GitHub already documents AI-powered issue intake, and several Marketplace actions classify issues, suggest labels, detect duplicates, and post comments.
 
@@ -91,10 +89,10 @@ Before applying, prepare:
 
 ## Current Status
 
-The project is still local and unpublished.
+The project is public and has a working local MVP.
 
-Do not apply before publishing and collecting real adoption or pilot evidence.
+Application readiness improves with a first release, current verification logs, and maintainer pilot evidence.
 
 ## Current Best Next Step
 
-The best next step is to publish a clean public repository only after the placeholders are removed, then run one safe dry-run pilot and collect evidence.
+The best next step is to publish `v0.1.0`, add GitHub topics, then run one safe dry-run pilot and collect evidence.
