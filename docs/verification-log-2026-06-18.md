@@ -111,7 +111,6 @@ The broad email-style scan produced GitHub URL false positives only.
 
 ## Known Public-Launch Blockers
 
-- Repository is not initialized as a Git repo in this folder.
 - OpenAI OSS application has not been submitted.
 
 ## Status

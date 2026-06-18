@@ -8,7 +8,7 @@ Maintainers do not need another noisy AI reviewer. They need fewer bad things to
 
 ## Status
 
-Local MVP. Not published yet.
+Public MVP. First release preparation is in progress.
 
 Current mode:
 
