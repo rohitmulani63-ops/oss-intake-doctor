@@ -24,6 +24,7 @@ This first release introduces OSS Intake Doctor as a local, no-external-API tool
 - No-cost policy.
 - Trust and safety docs.
 - Issue form gallery.
+- Maintainer proof cards.
 - Good first issue drafts.
 - Repro Pack roadmap.
 - Public benchmark report across 20 repositories.

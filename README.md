@@ -153,6 +153,7 @@ Useful links:
 - [Issue Form Doctor](docs/issue-form-doctor.md)
 - [Issue form gallery](docs/issue-form-gallery.md)
 - [Before/after demo](docs/before-after-demo.md)
+- [Maintainer proof cards](docs/maintainer-proof-cards.md)
 - [Pilot guide](docs/pilot-guide.md)
 - [Good first issue drafts](docs/good-first-issue-drafts.md)
 - [Trust and safety](docs/trust-and-safety.md)

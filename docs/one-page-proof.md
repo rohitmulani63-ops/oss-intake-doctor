@@ -10,8 +10,6 @@ Every unclear issue creates human follow-up work.
 
 AI-powered issue triage already exists, including GitHub's own AI issue intake workflow and many Marketplace actions.
 
-OSS Intake Doctor focuses on the safer local workflow around issue quality.
-
 It focuses on the safer gap:
 
 ```text
@@ -46,6 +44,7 @@ No-cost intake quality before maintainers trust automation.
 - 20 public repositories benchmarked.
 - Local issue-template audit command with text, Markdown, and JSON reports.
 - Issue-form gallery with copyable common and better patterns.
+- Maintainer proof cards for screenshots, release notes, and pilot requests.
 - Good first issue drafts for docs, fixtures, and tests.
 - GitHub research refresh on issue-form validators, parsers, and AI issue intake.
 - Dry-run GitHub Action wrapper.
