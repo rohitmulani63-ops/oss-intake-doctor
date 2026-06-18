@@ -58,7 +58,7 @@ By actionability:
 - actionable: 16
 - route-support: 6
 - route-private-security: 5
-- not-actionable: 3
+- needs-info: 3
 ```
 
 ### Issue-Template Audit
@@ -83,7 +83,7 @@ Passed.
 The dry-run Action produced a maintainer summary for the sample issue, including:
 
 - Likely type: bug.
-- Actionability: not-actionable.
+- Actionability: needs-info.
 - Missing fields.
 - Possible duplicate.
 - Configured labels.

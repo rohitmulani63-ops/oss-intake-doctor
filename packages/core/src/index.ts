@@ -423,7 +423,7 @@ export function formatMaintainerSummary(
     "OSS Intake Doctor summary",
     "",
     `Likely type: ${result.likelyType}`,
-    `Actionability: ${result.actionability}`,
+    `Actionability: ${formatActionability(result.actionability)}`,
   ];
 
   if (result.missing.length > 0) {
@@ -439,6 +439,14 @@ export function formatMaintainerSummary(
   lines.push(`Suggested next action: ${result.nextAction}`);
 
   return lines.join("\n");
+}
+
+export function formatActionability(actionability: Actionability): string {
+  if (actionability === "not-actionable") {
+    return "needs-info";
+  }
+
+  return actionability;
 }
 
 function classifyIssue(text: string): IssueType {

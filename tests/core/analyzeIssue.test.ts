@@ -143,7 +143,7 @@ describe("formatMaintainerSummary", () => {
         "OSS Intake Doctor summary",
         "",
         "Likely type: bug",
-        "Actionability: not-actionable",
+        "Actionability: needs-info",
         "Missing: version, environment, reproduction steps, expected behavior, actual behavior, logs or error",
         "Possible duplicate: #12 - Windows CSV export crash",
         "Suggested labels: bug, needs-info, repro-needed, low-signal",
@@ -152,4 +152,3 @@ describe("formatMaintainerSummary", () => {
     );
   });
 });
-

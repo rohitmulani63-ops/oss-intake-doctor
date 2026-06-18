@@ -44,7 +44,7 @@ By actionability:
 - actionable: 16
 - route-support: 6
 - route-private-security: 5
-- not-actionable: 3
+- needs-info: 3
 ```
 
 ## Why This Matters

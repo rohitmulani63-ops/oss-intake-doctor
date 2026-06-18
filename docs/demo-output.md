@@ -16,7 +16,7 @@ Run `npm run audit:templates` to audit local GitHub issue forms.
 OSS Intake Doctor summary
 
 Likely type: bug
-Actionability: not-actionable
+Actionability: needs-info
 Missing: reproduction steps, expected behavior, actual behavior
 Possible duplicate: #12 - Windows CSV export crash
 Suggested labels: bug, needs-info, repro-needed, low-signal
@@ -40,7 +40,7 @@ Suggested next action: maintainer can review the report
 OSS Intake Doctor summary
 
 Likely type: bug
-Actionability: not-actionable
+Actionability: needs-info
 Missing: version, environment, reproduction steps, expected behavior, actual behavior, logs or error
 Suggested labels: bug, needs-info, repro-needed, low-signal
 Suggested next action: ask reporter for version, environment, reproduction steps, expected behavior, actual behavior, and logs or error

@@ -119,7 +119,7 @@ describe("configurable analysis", () => {
         "OSS Intake Doctor summary",
         "",
         "Likely type: bug",
-        "Actionability: not-actionable",
+        "Actionability: needs-info",
         "Missing: version, reproduction steps",
         "Suggested labels: type/bug, status/needs-info, status/repro-needed, signal/low",
         "Suggested next action: ask reporter for version and reproduction steps",

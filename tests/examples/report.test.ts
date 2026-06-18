@@ -49,7 +49,7 @@ describe("issue bank report", () => {
         "- support-question: 1",
         "",
         "By actionability:",
-        "- not-actionable: 1",
+        "- needs-info: 1",
         "- route-support: 1",
         "",
         "Top suggested labels:",

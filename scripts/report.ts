@@ -1,6 +1,12 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { analyzeIssue, type Actionability, type IssueInput, type IssueType } from "../packages/core/src/index.ts";
+import {
+  analyzeIssue,
+  formatActionability,
+  type Actionability,
+  type IssueInput,
+  type IssueType,
+} from "../packages/core/src/index.ts";
 
 export type IssueBankReport = {
   totalIssues: number;
@@ -40,7 +46,7 @@ export function formatIssueBankReport(report: IssueBankReport): string {
     ...formatCounts(report.byType),
     "",
     "By actionability:",
-    ...formatCounts(report.byActionability),
+    ...formatCounts(report.byActionability, formatActionability),
     "",
     "Top suggested labels:",
     ...formatCounts(report.labelCounts),
@@ -51,12 +57,15 @@ function increment<T extends string>(counts: Partial<Record<T, number>>, key: T)
   counts[key] = (counts[key] ?? 0) + 1;
 }
 
-function formatCounts(counts: Record<string, number> | Partial<Record<string, number>>): string[] {
+function formatCounts(
+  counts: Record<string, number> | Partial<Record<string, number>>,
+  formatKey: (key: string) => string = (key) => key
+): string[] {
   return Object.entries(counts)
     .sort(([leftKey, leftValue], [rightKey, rightValue]) => {
       return rightValue - leftValue || leftKey.localeCompare(rightKey);
     })
-    .map(([key, value]) => `- ${key}: ${value}`);
+    .map(([key, value]) => `- ${formatKey(key)}: ${value}`);
 }
 
 function readIssueBank(path: string): IssueInput[] {
@@ -67,4 +76,3 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const path = process.argv[2] ?? "examples/issue-bank/sample-issues.json";
   console.log(formatIssueBankReport(buildIssueBankReport(readIssueBank(path))));
 }
-
