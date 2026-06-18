@@ -46,8 +46,14 @@ Local MVP:
 - Local sample issue bank with 30 issues.
 - Dry-run GitHub Action wrapper.
 - Local issue-template audit command.
+- Markdown and JSON audit report output.
 - Configuration validation.
 - Conservative duplicate detection.
+- Issue form gallery.
+- Maintainer proof cards.
+- Good first issue drafts.
+- GitHub public action checklist.
+- Pilot feedback kit.
 - Trust and safety docs.
 - No-cost policy.
 - Pilot guide.
@@ -61,6 +67,8 @@ npm test
 npm run demo
 npm run report
 npm run audit:templates
+npm run audit:templates:markdown
+npm run audit:templates:json
 ```
 
 Current mode:
@@ -78,6 +86,10 @@ Current mode:
 - 30 local sample issues analyzed.
 - 20 public repositories benchmarked for issue-template intake signals.
 - Local repo template audit scores 100/100 on current templates.
+- Text, Markdown, and JSON audit reports.
+- Maintainer proof cards and issue-form gallery prepared for pilots.
+- Good first issue drafts prepared for first contributors.
+- Pilot feedback templates prepared for public evidence collection.
 - Tests pass locally.
 - Product positioning avoids claiming uniqueness in crowded AI triage.
 - Clear safety boundary documented.
@@ -109,7 +121,7 @@ Support would help us:
 
 Phase 1:
 
-- Publish public repo.
+- Public repo is live.
 - Release v0.1.0.
 - Publish benchmark report.
 - Prepare the OSS application with public proof.

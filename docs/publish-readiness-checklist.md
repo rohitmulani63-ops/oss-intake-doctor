@@ -17,6 +17,8 @@ Use this checklist before publishing the repository.
 - [ ] `docs/repro-pack-plan.md` exists.
 - [ ] `docs/phase-1-proof-pack-2026-06-17.md` exists.
 - [ ] `docs/openai-oss-application-draft.md` exists.
+- [ ] `docs/github-public-action-checklist.md` exists.
+- [ ] `docs/pilot-feedback/README.md` exists.
 - [ ] `docs/public-repo-template-benchmark-2026-06-17.md` exists.
 - [ ] `docs/github-research-refresh-2026-06-17.md` exists.
 - [ ] `docs/verification-log-2026-06-18.md` exists.
@@ -41,6 +43,8 @@ Use this checklist before publishing the repository.
 - [x] Security policy published.
 - [ ] Publish `v0.1.0`.
 - [ ] Add GitHub topics.
+- [ ] Create the first two or three public starter issues.
+- [ ] Add first pilot feedback note after a maintainer review.
 - [ ] Add real screenshots or workflow-log snippets after first public pilot.
 - [ ] Confirm no private files are included.
 - [ ] Confirm docs say dry-run first, comment-only later.

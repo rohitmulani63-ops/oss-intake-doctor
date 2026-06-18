@@ -40,17 +40,17 @@ npm run audit:templates:markdown
 npm run audit:templates:json
 ```
 
-## Safety Boundary
+## Built-In Safety
 
-This release does not:
+This release keeps the core workflow simple and maintainer-controlled:
 
-- Call external APIs.
-- Require paid services.
-- Post comments.
-- Apply labels.
-- Auto-close issues.
-- Run contributor code.
-- Upload files.
+- Runs locally.
+- Uses no external APIs.
+- Requires no paid services.
+- Reviews issue intake in dry-run mode.
+- Keeps public comments, labels, and closing decisions under maintainer control.
+- Avoids contributor code execution.
+- Avoids file uploads.
 
 ## Notes For Maintainers
 
@@ -63,9 +63,9 @@ npm run report
 
 Then test the dry-run workflow in a private or test repository before enabling any public-facing behavior.
 
-## Known Limitations
+## Current Scope
 
-- The issue-template audit is a lightweight local scanner, not a full YAML parser.
-- Duplicate detection is local text similarity only.
-- Repro Pack is planned, not implemented.
-- Public comments and label application are intentionally not enabled by default.
+- The issue-template audit is a lightweight local scanner tailored to GitHub issue forms.
+- Duplicate detection uses local text similarity.
+- Repro Pack is planned for a future release.
+- Public comments and label application are maintainer-controlled future options outside the default dry-run path.

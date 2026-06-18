@@ -148,12 +148,14 @@ Current proof:
 Useful links:
 
 - [Launch verification](docs/verification-log-2026-06-18.md)
+- [GitHub public action checklist](docs/github-public-action-checklist.md)
 - [Public repo benchmark](docs/public-repo-template-benchmark-2026-06-17.md)
 - [Community growth and OpenAI OSS plan](docs/community-growth-and-openai-oss-plan-2026-06-18.md)
 - [Issue Form Doctor](docs/issue-form-doctor.md)
 - [Issue form gallery](docs/issue-form-gallery.md)
 - [Before/after demo](docs/before-after-demo.md)
 - [Maintainer proof cards](docs/maintainer-proof-cards.md)
+- [Pilot feedback kit](docs/pilot-feedback/README.md)
 - [Pilot guide](docs/pilot-guide.md)
 - [Good first issue drafts](docs/good-first-issue-drafts.md)
 - [Trust and safety](docs/trust-and-safety.md)
@@ -162,8 +164,9 @@ Useful links:
 
 Near-term:
 
+- Complete the public GitHub checklist in a live publishing session.
 - Release `v0.1.0`.
-- Collect maintainer feedback from small pilot repositories.
+- Collect maintainer feedback from small pilot repositories using the pilot feedback kit.
 
 Later:
 

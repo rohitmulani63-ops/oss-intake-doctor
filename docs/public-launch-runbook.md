@@ -4,6 +4,8 @@ This runbook is for the sit-together publishing session.
 
 Use these steps when Rohit is present and has approved the public action.
 
+For the exact next GitHub UI steps, use [github-public-action-checklist.md](github-public-action-checklist.md).
+
 ## Before Publishing
 
 Run:
@@ -66,16 +68,16 @@ Public
 
 ## Publishing Steps
 
-1. Create public GitHub repository.
-2. Replace placeholder links in `.github/ISSUE_TEMPLATE/config.yml`.
-3. Update `SECURITY.md` with public security reporting instructions.
-4. Initialize Git locally if needed.
-5. Commit all files.
-6. Push to GitHub.
-7. Check README rendering.
-8. Check docs links.
-9. Create release `v0.1.0` using [release-v0.1.0-draft.md](release-v0.1.0-draft.md).
-10. Submit OpenAI OSS application using [openai-oss-application-draft.md](openai-oss-application-draft.md).
+1. Confirm the public repository is live.
+2. Check README rendering.
+3. Check docs links.
+4. Add repo description and topics.
+5. Confirm Discussions or update the support route.
+6. Create the first labels.
+7. Create two or three first public issues from [good-first-issue-drafts.md](good-first-issue-drafts.md).
+8. Create release `v0.1.0` using [release-v0.1.0-draft.md](release-v0.1.0-draft.md).
+9. Update proof docs with the release link.
+10. Submit the OpenAI OSS application only after the release and evidence are ready.
 
 ## Approval Boundaries In The Publishing Session
 

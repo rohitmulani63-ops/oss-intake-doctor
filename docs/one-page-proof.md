@@ -46,6 +46,8 @@ No-cost intake quality before maintainers trust automation.
 - Issue-form gallery with copyable common and better patterns.
 - Maintainer proof cards for screenshots, release notes, and pilot requests.
 - Good first issue drafts for docs, fixtures, and tests.
+- GitHub public action checklist for the live publishing session.
+- Pilot feedback kit for safe maintainer evidence collection.
 - GitHub research refresh on issue-form validators, parsers, and AI issue intake.
 - Dry-run GitHub Action wrapper.
 - Trust and safety docs.
@@ -62,4 +64,4 @@ It protects maintainers from premature automation while still moving toward bett
 
 ## Current Ask
 
-Release v0.1.0, collect maintainer pilot evidence, and apply to OpenAI Codex for OSS with proof that the project supports maintainer triage, review, and workflow quality.
+Complete the public GitHub checklist, release v0.1.0, collect maintainer pilot evidence, and apply to OpenAI Codex for OSS with proof that the project supports maintainer triage, review, and workflow quality.

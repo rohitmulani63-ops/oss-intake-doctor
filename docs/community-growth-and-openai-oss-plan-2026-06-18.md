@@ -211,7 +211,8 @@ Avoid:
 - Next product feature: publish two or three `good first issue` tasks with Sir present.
 - Next proof feature: first release notes and public release.
 - Next community feature: publish prepared `good first issue` drafts.
-- Next public action with Sir present: add GitHub topics and publish `v0.1.0`.
+- Next public action with Sir present: follow [github-public-action-checklist.md](github-public-action-checklist.md), add GitHub topics, create starter issues, and publish `v0.1.0`.
+- Next feedback action: collect public-safe maintainer notes with [pilot-feedback/README.md](pilot-feedback/README.md).
 - OpenAI OSS application timing: after release plus at least early pilot evidence if possible.
 
 ## Sources Checked
