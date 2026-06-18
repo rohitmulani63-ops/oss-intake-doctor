@@ -16,6 +16,10 @@ https://github.com/rohitmulani63-ops/oss-intake-doctor
 
 https://github.com/rohitmulani63-ops/oss-intake-doctor/releases/tag/v0.1.0
 
+## Submission Packet
+
+https://github.com/rohitmulani63-ops/oss-intake-doctor/blob/main/docs/openai-oss-submission-packet-2026-06-18.md
+
 ## Why This Project Matters
 
 Open-source maintainers lose time to incomplete bug reports, duplicate issues, support questions filed as bugs, and security-sensitive details posted publicly.
@@ -58,6 +62,7 @@ Local MVP:
 - Good first issue drafts.
 - GitHub public action checklist.
 - Public launch results.
+- OpenAI OSS submission packet.
 - Pilot feedback kit.
 - Trust and safety docs.
 - No-cost policy.

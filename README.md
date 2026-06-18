@@ -152,6 +152,7 @@ Useful links:
 - [Launch verification](docs/verification-log-2026-06-18.md)
 - [Public launch results](docs/public-launch-results-2026-06-18.md)
 - [GitHub public action checklist](docs/github-public-action-checklist.md)
+- [OpenAI OSS submission packet](docs/openai-oss-submission-packet-2026-06-18.md)
 - [Public repo benchmark](docs/public-repo-template-benchmark-2026-06-17.md)
 - [Community growth and OpenAI OSS plan](docs/community-growth-and-openai-oss-plan-2026-06-18.md)
 - [Issue Form Doctor](docs/issue-form-doctor.md)
