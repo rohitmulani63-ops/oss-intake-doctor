@@ -1,0 +1,23 @@
+name: OSS Intake Doctor Dry Run
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  dry-run:
+    name: Analyze issue without posting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run OSS Intake Doctor dry run
+        uses: ./
+        with:
+          config-path: examples/config/oss-intake.config.json
+

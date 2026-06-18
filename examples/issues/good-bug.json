@@ -1,0 +1,5 @@
+{
+  "title": "Crash when exporting CSV on Windows",
+  "body": "Version: 1.4.2\nOS: Windows 11\nSteps to reproduce:\n1. Open the reports page\n2. Click Export CSV\nExpected behavior: the CSV downloads\nActual behavior: the app crashes\nError: Cannot read properties of undefined"
+}
+

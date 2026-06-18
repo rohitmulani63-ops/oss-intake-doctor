@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Crash when exporting CSV on Windows",
+    "body": "Version: 1.4.2\nOS: Windows 11\nSteps to reproduce:\n1. Open reports\n2. Click Export CSV\nExpected behavior: CSV downloads\nActual behavior: app crashes\nError: Cannot read properties of undefined"
+  },
+  {
+    "title": "App not working",
+    "body": "It crashes. Please fix fast."
+  },
+  {
+    "title": "Feature request: add CSV import",
+    "body": "Problem: users manually copy data. Proposed solution: add CSV import. Impact: faster onboarding."
+  },
+  {
+    "title": "How do I connect this to Stripe?",
+    "body": "Question: can someone explain the setup? I am not reporting a bug."
+  },
+  {
+    "title": "Possible auth bypass vulnerability",
+    "body": "I found an exploit that may allow account takeover. Should I post details here?"
+  },
+  {
+    "title": "Docs typo in installation guide",
+    "body": "The README installation command has a typo in the npm command."
+  },
+  {
+    "title": "Login fails on Ubuntu",
+    "body": "Version: 2.0.1\nOS: Ubuntu 24.04\nSteps to reproduce: open login page and submit valid credentials\nExpected: dashboard opens\nActual: login fails\nError: 500 server error"
+  },
+  {
+    "title": "Dark mode proposal",
+    "body": "Feature request: add dark mode. Problem: night usage is hard. Proposed solution: theme toggle. Impact: better accessibility."
+  },
+  {
+    "title": "Question about Docker setup",
+    "body": "How do I configure Docker compose for local development?"
+  },
+  {
+    "title": "SQL injection concern",
+    "body": "I found a possible SQL injection in the search endpoint and want to report it safely."
+  },
+  {
+    "title": "Broken link in docs",
+    "body": "Documentation link in docs/getting-started.md points to a missing page."
+  },
+  {
+    "title": "Upload button does nothing",
+    "body": "Version: 0.9.0\nOS: macOS 15\nSteps to reproduce: click Upload\nExpected behavior: file picker opens\nActual behavior: nothing happens\nLogs: no console output"
+  },
+  {
+    "title": "Need help with environment variables",
+    "body": "Question: where should I put the API URL in local setup?"
+  },
+  {
+    "title": "Feature request: webhook retry settings",
+    "body": "Problem: failed webhooks are retried too aggressively. Proposed solution: configurable retry delay. Impact: less load."
+  },
+  {
+    "title": "Remote code execution report",
+    "body": "I may have found an RCE path through archive extraction."
+  },
+  {
+    "title": "Search crashes with empty query",
+    "body": "Version: 3.1.0\nEnvironment: Node 24\nSteps to reproduce: submit empty search\nExpected behavior: show all results\nActual behavior: crash\nException: TypeError query.trim is not a function"
+  },
+  {
+    "title": "Package fails to install",
+    "body": "npm install fails on Windows but I do not have logs yet."
+  },
+  {
+    "title": "Can I use this with React Native?",
+    "body": "How can I use this package inside a React Native app?"
+  },
+  {
+    "title": "Docs missing Python example",
+    "body": "The docs explain Node usage but documentation does not show a Python example."
+  },
+  {
+    "title": "Feature request: export to PDF",
+    "body": "Problem: users need shareable reports. Proposed solution: add PDF export. Impact: easier reporting."
+  },
+  {
+    "title": "XSS vulnerability in markdown preview",
+    "body": "I found an XSS issue in markdown preview. Please direct me to private security reporting."
+  },
+  {
+    "title": "Settings page fails on Firefox",
+    "body": "Version: 1.7.3\nOS: Linux\nBrowser: Firefox\nSteps to reproduce: open settings page\nExpected: settings render\nActual: blank page\nError: ReferenceError ResizeObserver is not defined"
+  },
+  {
+    "title": "How to reset my cache?",
+    "body": "Question: is there a command to clear the cache?"
+  },
+  {
+    "title": "CLI docs have outdated flag",
+    "body": "The README says --dryrun but the CLI help says --dry-run."
+  },
+  {
+    "title": "Feature request: custom labels",
+    "body": "Problem: teams use different label names. Proposed solution: config mapping. Impact: easier adoption."
+  },
+  {
+    "title": "Data leak in debug logs",
+    "body": "Debug logs may expose secret tokens. I want to report a possible data leak."
+  },
+  {
+    "title": "Import fails on Node 24",
+    "body": "Version: 2.2.0\nEnvironment: Node 24\nSteps to reproduce: import package in ESM project\nExpected behavior: module loads\nActual behavior: import fails\nError: ERR_MODULE_NOT_FOUND"
+  },
+  {
+    "title": "Support question: recommended deployment",
+    "body": "Question: what deployment setup do maintainers recommend?"
+  },
+  {
+    "title": "Documentation request: config examples",
+    "body": "Docs need more examples for custom labels and routing."
+  },
+  {
+    "title": "Bug report missing details",
+    "body": "The screen is blank after update."
+  }
+]
+

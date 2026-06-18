@@ -1,0 +1,15 @@
+[
+  {
+    "number": 12,
+    "title": "Windows CSV export crash",
+    "body": "CSV export fails on Windows 11 with Cannot read properties of undefined.",
+    "url": "https://github.com/example/repo/issues/12"
+  },
+  {
+    "number": 13,
+    "title": "Add dark mode",
+    "body": "Please add dark mode to the settings page.",
+    "url": "https://github.com/example/repo/issues/13"
+  }
+]
+

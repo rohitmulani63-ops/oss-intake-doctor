@@ -1,0 +1,28 @@
+{
+  "labels": {
+    "bug": "type/bug",
+    "featureRequest": "type/feature",
+    "docs": "type/docs",
+    "support": "type/support",
+    "security": "type/security-review",
+    "needsInfo": "status/needs-info",
+    "reproNeeded": "status/repro-needed",
+    "highSignal": "signal/high",
+    "lowSignal": "signal/low"
+  },
+  "requiredFields": {
+    "bug": [
+      "version",
+      "environment",
+      "reproduction_steps",
+      "expected_behavior",
+      "actual_behavior",
+      "logs_or_error"
+    ]
+  },
+  "routing": {
+    "supportUrl": "https://github.com/example/repo/discussions",
+    "securityUrl": "https://github.com/example/repo/security/policy"
+  },
+  "duplicateThreshold": 0.35
+}

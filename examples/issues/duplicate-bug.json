@@ -1,0 +1,5 @@
+{
+  "title": "CSV export crashes on Windows",
+  "body": "Version 1.4.2. Export CSV crashes on Windows 11 with Cannot read properties of undefined."
+}
+

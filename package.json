@@ -1,0 +1,16 @@
+{
+  "name": "oss-intake",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Zero-cost GitHub issue intake quality toolkit for open-source maintainers.",
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "demo": "node scripts/demo.ts",
+    "report": "node scripts/report.ts",
+    "audit:templates": "node scripts/template-audit.ts"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

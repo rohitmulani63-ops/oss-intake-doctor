@@ -1,0 +1,15 @@
+name: "OSS Intake Doctor"
+description: "Zero-cost, dry-run GitHub issue intake assistant for maintainers."
+author: "OSS Intake Doctor"
+
+inputs:
+  existing-issues-path:
+    description: "Optional local JSON file of existing issues for dry-run duplicate suggestions."
+    required: false
+  config-path:
+    description: "Optional local JSON config file for labels, required fields, routes, and duplicate threshold."
+    required: false
+
+runs:
+  using: "node24"
+  main: "packages/action/src/index.ts"
