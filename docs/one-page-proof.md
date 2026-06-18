@@ -46,6 +46,7 @@ No-cost intake quality before maintainers trust automation.
 - 20 public repositories benchmarked.
 - Local issue-template audit command with text, Markdown, and JSON reports.
 - Issue-form gallery with copyable common and better patterns.
+- Good first issue drafts for docs, fixtures, and tests.
 - GitHub research refresh on issue-form validators, parsers, and AI issue intake.
 - Dry-run GitHub Action wrapper.
 - Trust and safety docs.

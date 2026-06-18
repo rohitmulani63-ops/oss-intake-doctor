@@ -36,6 +36,21 @@ Run the dry-run Action wrapper:
 node packages/action/src/index.ts examples/events/issue-opened.json examples/issues/existing-issues.json examples/config/oss-intake.config.json
 ```
 
+## First Contribution Path
+
+Start with one small, local change:
+
+1. Read [Good First Issue Drafts](docs/good-first-issue-drafts.md).
+2. Pick a docs, fixtures, or test task.
+3. Run the local checks before opening a pull request:
+
+```text
+npm test
+npm run audit:templates
+npm run demo
+npm run report
+```
+
 ## Contribution Areas
 
 Good first contributions:
@@ -70,4 +85,3 @@ Do not add behavior that:
 OSS Intake Doctor should guide contributors and protect maintainers.
 
 It should judge report quality, not the person who wrote the report.
-

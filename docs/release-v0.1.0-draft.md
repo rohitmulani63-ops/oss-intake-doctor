@@ -11,6 +11,7 @@ This first release introduces OSS Intake Doctor as a local, no-external-API tool
 ## Highlights
 
 - Local issue-template audit with category scores.
+- Markdown and JSON issue-template audit reports.
 - Suggested fixes for issue-template findings.
 - GitHub-compatible duplicate-label and checkbox option checks.
 - Dry-run issue analyzer.
@@ -22,6 +23,8 @@ This first release introduces OSS Intake Doctor as a local, no-external-API tool
 - Dry-run GitHub Action wrapper.
 - No-cost policy.
 - Trust and safety docs.
+- Issue form gallery.
+- Good first issue drafts.
 - Repro Pack roadmap.
 - Public benchmark report across 20 repositories.
 
@@ -32,6 +35,8 @@ npm test
 npm run demo
 npm run report
 npm run audit:templates
+npm run audit:templates:markdown
+npm run audit:templates:json
 ```
 
 ## Safety Boundary

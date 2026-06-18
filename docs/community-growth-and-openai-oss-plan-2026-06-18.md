@@ -86,7 +86,7 @@ Success signal:
 - JSON output for CI and future dashboards. Completed locally.
 - Issue-form gallery with common and better patterns. Completed locally.
 - Turn the current before/after demo into a screenshot-friendly doc.
-- Create two or three `good first issue` tasks for docs, examples, and fixtures.
+- Good first issue drafts for docs, fixtures, and tests. Completed locally.
 
 Success signal:
 
@@ -208,9 +208,9 @@ Avoid:
 
 - Current repo: `https://github.com/rohitmulani63-ops/oss-intake-doctor`
 - Current positioning: local, no-cost maintainer-intake quality toolkit.
-- Next product feature: `good first issue` contribution tasks.
+- Next product feature: publish two or three `good first issue` tasks with Sir present.
 - Next proof feature: screenshot-friendly before/after page.
-- Next community feature: `good first issue` tasks.
+- Next community feature: publish prepared `good first issue` drafts.
 - Next public action with Sir present: add GitHub topics and publish `v0.1.0`.
 - OpenAI OSS application timing: after release plus at least early pilot evidence if possible.
 

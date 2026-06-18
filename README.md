@@ -154,6 +154,7 @@ Useful links:
 - [Issue form gallery](docs/issue-form-gallery.md)
 - [Before/after demo](docs/before-after-demo.md)
 - [Pilot guide](docs/pilot-guide.md)
+- [Good first issue drafts](docs/good-first-issue-drafts.md)
 - [Trust and safety](docs/trust-and-safety.md)
 
 ## Roadmap
@@ -161,7 +162,6 @@ Useful links:
 Near-term:
 
 - Release `v0.1.0`.
-- Add `good first issue` tasks for docs, fixtures, and examples.
 - Collect maintainer feedback from small pilot repositories.
 
 Later:
