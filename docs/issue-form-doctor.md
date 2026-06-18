@@ -123,6 +123,8 @@ When a finding exists, the report includes the category and a concrete suggestio
   suggestion: Add `blank_issues_enabled: false` to route contributors into structured choices.
 ```
 
+For copyable examples, see [Issue Form Gallery](issue-form-gallery.md).
+
 ## How This Fits The Product
 
 Issue Form Doctor runs before issue submission.

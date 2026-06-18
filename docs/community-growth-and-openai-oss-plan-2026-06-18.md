@@ -84,7 +84,7 @@ Success signal:
 
 - Markdown output for the issue-template audit. Completed locally.
 - JSON output for CI and future dashboards. Completed locally.
-- Add a small gallery of weak issue forms and improved issue forms.
+- Issue-form gallery with common and better patterns. Completed locally.
 - Turn the current before/after demo into a screenshot-friendly doc.
 - Create two or three `good first issue` tasks for docs, examples, and fixtures.
 
@@ -208,8 +208,8 @@ Avoid:
 
 - Current repo: `https://github.com/rohitmulani63-ops/oss-intake-doctor`
 - Current positioning: local, no-cost maintainer-intake quality toolkit.
-- Next product feature: markdown audit report command.
-- Next proof feature: weak/fixed issue-form gallery.
+- Next product feature: `good first issue` contribution tasks.
+- Next proof feature: screenshot-friendly before/after page.
 - Next community feature: `good first issue` tasks.
 - Next public action with Sir present: add GitHub topics and publish `v0.1.0`.
 - OpenAI OSS application timing: after release plus at least early pilot evidence if possible.

@@ -151,6 +151,7 @@ Useful links:
 - [Public repo benchmark](docs/public-repo-template-benchmark-2026-06-17.md)
 - [Community growth and OpenAI OSS plan](docs/community-growth-and-openai-oss-plan-2026-06-18.md)
 - [Issue Form Doctor](docs/issue-form-doctor.md)
+- [Issue form gallery](docs/issue-form-gallery.md)
 - [Before/after demo](docs/before-after-demo.md)
 - [Pilot guide](docs/pilot-guide.md)
 - [Trust and safety](docs/trust-and-safety.md)
@@ -160,7 +161,6 @@ Useful links:
 Near-term:
 
 - Release `v0.1.0`.
-- Build a gallery of weak issue forms and improved issue forms.
 - Add `good first issue` tasks for docs, fixtures, and examples.
 - Collect maintainer feedback from small pilot repositories.
 
