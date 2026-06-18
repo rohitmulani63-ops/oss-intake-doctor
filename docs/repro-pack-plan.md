@@ -1,5 +1,21 @@
 # Repro Pack Plan
 
+## Current Status
+
+Repro Pack CLI now exists as a companion project:
+
+```text
+https://github.com/rohitmulani63-ops/repro-pack-cli
+```
+
+Release `v0.1.0` is published:
+
+```text
+https://github.com/rohitmulani63-ops/repro-pack-cli/releases/tag/v0.1.0
+```
+
+This document remains the product rationale that connects Repro Pack CLI back to OSS Intake Doctor.
+
 ## Why Repro Pack Matters
 
 Most issue triage tools react after a weak issue is opened.
@@ -23,10 +39,10 @@ Repro Pack must follow the same project rules:
 - No hidden telemetry.
 - No automatic posting without contributor review.
 
-## Planned Command
+## Implemented Command
 
 ```text
-npx oss-intake-doctor collect
+node bin/repro-pack.js --input examples/incomplete-bug.json --output repro-pack.md
 ```
 
 ## What It Should Collect
@@ -93,12 +109,12 @@ The contributor reviews it before copying it into an issue.
 
 ## MVP Sequence
 
-1. Document the intended output format.
-2. Build a local interactive prompt with built-in Node.js only.
-3. Write the markdown file locally.
-4. Add tests for redaction warnings.
-5. Add sample Repro Packs to docs.
-6. Pilot it with maintainers after the dry-run issue analyzer proves useful.
+1. Document the intended output format. Done.
+2. Build a local interactive prompt with built-in Node.js only. Done in Repro Pack CLI.
+3. Write the markdown file locally. Done.
+4. Add tests for redaction warnings. Done.
+5. Add sample Repro Packs to docs. Started with fictional examples.
+6. Pilot it with maintainers after the dry-run issue analyzer proves useful. Next.
 
 ## Success Criteria
 

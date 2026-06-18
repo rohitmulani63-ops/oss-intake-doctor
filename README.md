@@ -164,6 +164,16 @@ Useful links:
 - [Good first issue drafts](docs/good-first-issue-drafts.md)
 - [Trust and safety](docs/trust-and-safety.md)
 
+## Companion Project
+
+[Repro Pack CLI](https://github.com/rohitmulani63-ops/repro-pack-cli) is the second project in the same local-first maintainer tooling set.
+
+OSS Intake Doctor helps maintainers inspect issue intake quality.
+
+Repro Pack CLI helps contributors prepare the missing reproduction evidence maintainers need before a bug report is ready for review.
+
+Together, they support a no-cost maintainer workflow from issue intake to reproducible bug evidence.
+
 ## Roadmap
 
 Near-term:
