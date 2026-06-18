@@ -158,11 +158,25 @@ The broad email-style scan produced GitHub URL false positives only.
 ## Known Public-Launch Blockers
 
 - OpenAI OSS application has not been submitted.
+- Maintainer pilot feedback has not been collected yet.
 
 ## Status
 
-Launch verification passed locally. Public repository created at:
+Launch verification passed locally. Public repository created and released at:
 
 ```text
 https://github.com/rohitmulani63-ops/oss-intake-doctor
+https://github.com/rohitmulani63-ops/oss-intake-doctor/releases/tag/v0.1.0
 ```
+
+## Public Launch Proof
+
+- Repo topics added: `github-actions`, `issue-triage`, `issue-templates`, `open-source`, `maintainers`, `developer-tools`, `no-api`, `local-first`.
+- Discussions enabled for support routing.
+- Wiki and Projects disabled to keep the repo focused.
+- Launch labels added for fixtures, tests, pilot feedback, missing-info, duplicate, support, and security-sensitive routing.
+- First starter issues created:
+  - https://github.com/rohitmulani63-ops/oss-intake-doctor/issues/1
+  - https://github.com/rohitmulani63-ops/oss-intake-doctor/issues/2
+  - https://github.com/rohitmulani63-ops/oss-intake-doctor/issues/3
+- Release `v0.1.0` published and marked Latest.

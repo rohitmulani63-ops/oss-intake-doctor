@@ -42,6 +42,8 @@ No-cost intake quality before maintainers trust automation.
 - 36 local tests.
 - 30 sample issues.
 - 20 public repositories benchmarked.
+- Public release v0.1.0.
+- Three starter `good first issue` tasks for fixtures and docs.
 - Local issue-template audit command with text, Markdown, and JSON reports.
 - Issue-form gallery with copyable common and better patterns.
 - Maintainer proof cards for screenshots, release notes, and pilot requests.
@@ -64,4 +66,4 @@ It protects maintainers from premature automation while still moving toward bett
 
 ## Current Ask
 
-Complete the public GitHub checklist, release v0.1.0, collect maintainer pilot evidence, and apply to OpenAI Codex for OSS with proof that the project supports maintainer triage, review, and workflow quality.
+Collect maintainer pilot evidence, record one public-safe feedback note, and apply to OpenAI Codex for OSS with proof that the project supports maintainer triage, review, and workflow quality.

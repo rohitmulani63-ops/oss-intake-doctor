@@ -41,14 +41,14 @@ Use this checklist before publishing the repository.
 - [x] MIT license selected.
 - [x] Placeholder issue-template links replaced.
 - [x] Security policy published.
-- [ ] Publish `v0.1.0`.
-- [ ] Add GitHub topics.
-- [ ] Create the first two or three public starter issues.
+- [x] Publish `v0.1.0`.
+- [x] Add GitHub topics.
+- [x] Create the first two or three public starter issues.
 - [ ] Add first pilot feedback note after a maintainer review.
 - [ ] Add real screenshots or workflow-log snippets after first public pilot.
-- [ ] Confirm no private files are included.
-- [ ] Confirm docs say dry-run first, comment-only later.
-- [ ] Confirm OpenAI OSS readiness is framed as a later evidence-backed step.
+- [x] Confirm no private files are included.
+- [x] Confirm docs say dry-run first, comment-only later.
+- [x] Confirm OpenAI OSS readiness is framed as a later evidence-backed step.
 
 ## Do Not Do Without Explicit Approval
 

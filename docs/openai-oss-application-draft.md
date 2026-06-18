@@ -12,6 +12,10 @@ OSS Intake Doctor is a no-cost, no-external-API maintainer intake quality toolki
 
 https://github.com/rohitmulani63-ops/oss-intake-doctor
 
+## Public Release
+
+https://github.com/rohitmulani63-ops/oss-intake-doctor/releases/tag/v0.1.0
+
 ## Why This Project Matters
 
 Open-source maintainers lose time to incomplete bug reports, duplicate issues, support questions filed as bugs, and security-sensitive details posted publicly.
@@ -53,6 +57,7 @@ Local MVP:
 - Maintainer proof cards.
 - Good first issue drafts.
 - GitHub public action checklist.
+- Public launch results.
 - Pilot feedback kit.
 - Trust and safety docs.
 - No-cost policy.
@@ -85,6 +90,9 @@ Current mode:
 
 - 30 local sample issues analyzed.
 - 20 public repositories benchmarked for issue-template intake signals.
+- Public `v0.1.0` release published.
+- Three starter contributor issues published.
+- Repo topics, labels, and Discussions configured.
 - Local repo template audit scores 100/100 on current templates.
 - Text, Markdown, and JSON audit reports.
 - Maintainer proof cards and issue-form gallery prepared for pilots.
@@ -122,7 +130,7 @@ Support would help us:
 Phase 1:
 
 - Public repo is live.
-- Release v0.1.0.
+- Release v0.1.0 is live.
 - Publish benchmark report.
 - Prepare the OSS application with public proof.
 
@@ -158,7 +166,7 @@ OSS Intake Doctor starts safer. It audits GitHub issue forms before submission, 
 
 We are building this because early AI adopters should use these tools to help shared open-source infrastructure, not only private productivity. Codex support would help us execute faster while keeping the core project free for the community.
 
-Current proof includes a tested local MVP, a 30-item sample issue bank, a dry-run GitHub Action wrapper, issue-template audit command, trust-and-safety docs, no-cost policy, Repro Pack roadmap, and a 20-repository public benchmark showing real variation in OSS issue-intake setup.
+Current proof includes a tested local MVP, public v0.1.0 release, a 30-item sample issue bank, three starter contributor issues, a dry-run GitHub Action wrapper, issue-template audit command, trust-and-safety docs, no-cost policy, Repro Pack roadmap, and a 20-repository public benchmark showing real variation in OSS issue-intake setup.
 
 We are not asking Codex to make a private workflow cheaper. We are building a public OSS maintainer workflow tool and want to use Codex to serve maintainers better.
 ```

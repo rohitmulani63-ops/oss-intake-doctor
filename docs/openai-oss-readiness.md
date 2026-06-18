@@ -89,10 +89,10 @@ Before applying, prepare:
 
 ## Current Status
 
-The project is public and has a working local MVP.
+The project is public, has a working local MVP, and has a published `v0.1.0` release.
 
-Application readiness improves with a first release, current verification logs, and maintainer pilot evidence.
+Public setup now includes repo topics, Discussions, launch labels, three starter contributor issues, current verification logs, and a release.
 
 ## Current Best Next Step
 
-The best next step is to publish `v0.1.0`, add GitHub topics, then run one safe dry-run pilot and collect evidence.
+The best next step is to run one safe dry-run pilot and collect public-safe maintainer feedback.

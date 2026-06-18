@@ -133,7 +133,7 @@ See [docs/configuration.md](docs/configuration.md).
 
 ## Project Status
 
-Public MVP, ready for maintainer pilots.
+Public MVP, released as `v0.1.0`, ready for maintainer pilots.
 
 Current proof:
 
@@ -142,12 +142,15 @@ Current proof:
 - Issue-template audit with text, Markdown, and JSON reports.
 - Dry-run GitHub Action wrapper.
 - Public benchmark across 20 repositories.
+- Public release `v0.1.0`.
+- Three starter `good first issue` tasks.
 - Launch verification log.
 - MIT license, contribution guide, code of conduct, and security policy.
 
 Useful links:
 
 - [Launch verification](docs/verification-log-2026-06-18.md)
+- [Public launch results](docs/public-launch-results-2026-06-18.md)
 - [GitHub public action checklist](docs/github-public-action-checklist.md)
 - [Public repo benchmark](docs/public-repo-template-benchmark-2026-06-17.md)
 - [Community growth and OpenAI OSS plan](docs/community-growth-and-openai-oss-plan-2026-06-18.md)
@@ -164,9 +167,8 @@ Useful links:
 
 Near-term:
 
-- Complete the public GitHub checklist in a live publishing session.
-- Release `v0.1.0`.
 - Collect maintainer feedback from small pilot repositories using the pilot feedback kit.
+- Add first public-safe pilot feedback note.
 
 Later:
 
